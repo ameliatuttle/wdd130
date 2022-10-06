@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: #fba6c9;
+}
+h1 {
+    font-family: Roboto;
+    color:white;
+    text-align: center;
+    line-height: 1.75em;
+}
+h1:hover {
+    color: black;
+}
+.top{
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    font-size: .6em;
+}
+.speaker {
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    font-size: .8em;
+}
+ol {
+    font-family: Roboto;
+    font-size: .8em;
+    line-height: 1.75em;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 45%;
+}
+.bottom {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+footer {
+    font-family: Robot;
+    text-align: center;
+    font-size: .8em;
+}
