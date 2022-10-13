@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+.circle_img img{
+    width: 100%;
+}
+.botttom_imgs {
+    display: flex;
+    justify-content: space-around;
+}
+.botttom_imgs img{
+    width: 20%;
+    border-radius: 50%;
+    border: 15px solid rgb(72, 71, 71);
+}
