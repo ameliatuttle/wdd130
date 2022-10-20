@@ -12,14 +12,21 @@ h1 {
     justify-self: center;
     justify-content: center;
     position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 img {
     grid-column-start: 1;
     grid-column-end: 2;
     justify-self: center;
     background-color: white;
+    width: 100%;
 }
-p {
+h2 {
     position: absolute;
     justify-self: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#shade {
+    grid-column-start: 3;
+    grid-column-end: 6;
 }
