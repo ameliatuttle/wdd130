@@ -1,32 +1,32 @@
 .container {
     display: grid;
-    grid-template-columns: auto auto;
-    background-color: lightgray;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
-h1 {
-    font-size: 100px;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    justify-self: center;
-    justify-content: center;
-    position: absolute;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-img {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    justify-self: center;
+#image {
     background-color: white;
-    width: 100%;
-}
-h2 {
-    position: absolute;
-    justify-self: right;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-column: 1/2;
+    grid-row: 1/3;
 }
 #shade {
-    grid-column-start: 3;
-    grid-column-end: 6;
+    background-color: lightgray;
+    grid-column: 2/4;
+}
+img {
+    width: 100%;
+}
+h1 {
+    font-size: 1500%;
+    justify-self: center;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    font-size: 750%;
+    color: maroon;
+    position: absolute;
+    justify-self: right;
+    margin-top: 35%;
+    margin-right: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
