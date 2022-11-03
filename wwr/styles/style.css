@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 body {
-    background-color: #baa285c1; 
+    background-color: #c4b19ad5; 
     font-family: "Quicksand", 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
@@ -61,7 +61,7 @@ nav a:hover {
     color: rgb(181, 169, 169);
 }
 .home-title {
-    color: #a4855f;
+    color: #fa9f36c1;
     font-size: 2em;
     margin-top: 10px;
 }
