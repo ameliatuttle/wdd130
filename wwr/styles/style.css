@@ -182,3 +182,24 @@ footer a:hover {
     color: rgba(20,30,13, .7);
     text-decoration: underline;
 }
+
+#river {
+    display: grid;
+    height: 800px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: 2em;
+}
+#river-box {
+    grid-column: 1/2; 
+}
+#big-river {
+    height: 25%;
+}
+#main-fork {
+    grid-column: 2/3;
+
+}
+#main-fork-river {
+    height: 8%;
+}
