@@ -61,7 +61,7 @@ nav a:hover {
     color: rgb(181, 169, 169);
 }
 .home-title {
-    color: #fa9f36c1;
+    color: #ffe3c2c1;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -183,23 +183,104 @@ footer a:hover {
     text-decoration: underline;
 }
 
-#river {
+/*Page 2*/
+#title-intro h1,p{
+    text-align: center;
+}
+#title-intro h1 {
+    color: #c0731cdf;
+}
+#whole-page {
     display: grid;
-    height: 800px;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    padding: 2em;
+    grid-template-columns: 30% 5% 65%;
+    grid-template-rows: 1fr 200px 1fr 200px 1fr 200px 1fr;
+    margin-top: 2em;
+    margin-bottom: -100px;
+}
+.pictures {
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#background-rivers {
+    background-color: #709bb9be;
+    grid-column: 3/4;
+    grid-row: 1/8;
+    padding-left: 5%;
+    z-index: 0;
 }
 #river-box {
     grid-column: 1/2; 
+    grid-row: 1/8;
 }
-#big-river {
-    height: 25%;
+#big-river-picture {
+    width: 100%;
 }
-#main-fork {
-    grid-column: 2/3;
-
+#main-fork-box {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding-left: 10%;
+    z-index: 1;
 }
-#main-fork-river {
-    height: 8%;
+#main-fork-picture {
+    height: 200px;
+}
+#mf-text-box {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-left: 30%;
+    margin-right: 10%;
+    z-index: 2;
+    background-color: #174a6ebe;
+    text-align: center;
+}
+#mf-text {
+    color: #ffe3c2c1;
+}
+#grand-canyon-box {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    padding-left: 10%;
+    z-index: 1;
+}
+#grand-canyon-picture {
+    height: 200px;
+}
+#gc-text-box {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-left: 30%;
+    margin-right: 10%;
+    z-index: 2;
+    background-color: #174a6ebe;
+    text-align: center;
+}
+#gc-text {
+    color: #ffe3c2c1;
+}
+#desolation-box {
+    grid-column: 3/4;
+    grid-row: 6/7;
+    padding-left: 10%;
+    z-index: 1;
+}
+#desolation-picture {
+    height: 200px;
+}
+#dc-text-box {
+    grid-column: 3/4;
+    grid-row: 6/7;
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-left: 30%;
+    margin-right: 10%;
+    z-index: 2;
+    background-color: #174a6ebe;
+    text-align: center;
+}
+#dc-text {
+    color: #ffe3c2c1;
 }
